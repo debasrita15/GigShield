@@ -1,6 +1,7 @@
-# GigShield
+# 🛡️ GigShield
 
 ### Safety Intelligence Platform for Gig Workers
+> Empowering gig workers with real-time safety insights, community-driven reporting, and intelligent risk analysis.
 
 GigShield is a full-stack MERN application designed to enhance **safety, transparency, and support** for gig workers. The platform enables real-time incident reporting, geospatial risk visualization, earnings tracking, and intelligent insights to help workers make safer and more informed decisions.
 
@@ -166,14 +167,10 @@ GigShield aims to become a **comprehensive safety infrastructure for the gig eco
 
 ##  Authors
 
-Developed by a collaborative team as part of a MERN stack project.
+- [Debasrita Das](https://github.com/debasrita15)
+- [Esha Agarwal](https://github.com/eshaagarwal1805-hash)
+- [Sreshtha Mukherjee](https://github.com/Sres-htha)
 
+##  Contributions
 
-##  Acknowledgements
-
-* OpenStreetMap
-* BigDataCloud
-* OpenWeather
-
-
- a **LinkedIn / portfolio version of this** 🚀
+Each member contributed to the design, development, and deployment of GigShield as part of a collaborative MERN stack project.
