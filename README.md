@@ -156,7 +156,7 @@ npm run dev
 <pre>
 cd frontend
 npm install
-npm start
+npm run dev
 </pre>
 
 <p>Add environment variables in <code>backend/.env</code>:</p>
@@ -191,19 +191,36 @@ sosAlerts/
 
 <pre>
 gigshield/
-├── frontend/
-│   ├── components/
-│   ├── api/
-│   └── styles/
-│
 ├── backend/
-│   ├── routes/
-│   ├── controllers/
-│   ├── models/
-│   └── services/
+│   ├── src/
+│   │   ├── routes/
+│   │   ├── controllers/
+│   │   ├── models/
+│   │   └── services/
+│   ├── .env
+│   ├── package.json
+│   └── package-lock.json
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── api/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── styles/
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── eslint.config.js
+│   └── package.json
+│
+├── .gitignore
+├── package-lock.json
+└── README.md
 </pre>
-
-<hr/>
 
 <h2>📚 Learnings</h2>
 
