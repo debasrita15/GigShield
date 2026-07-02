@@ -1,176 +1,252 @@
-# 🛡️ GigShield
+<h1 align="center">🛡️ GigShield: Safety Intelligence Platform for Gig Workers</h1>
 
-### Safety Intelligence Platform for Gig Workers
-> Empowering gig workers with real-time safety insights, community-driven reporting, and intelligent risk analysis.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-Frontend-61DAFB?logo=react"/>
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?logo=nodedotjs"/>
+  <img src="https://img.shields.io/badge/Express.js-Framework-000000?logo=express"/>
+  <img src="https://img.shields.io/badge/MongoDB-Database-47A248?logo=mongodb"/>
+  <img src="https://img.shields.io/badge/Leaflet.js-Maps-199900?logo=leaflet"/>
+  <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
+</p>
 
-GigShield is a full-stack MERN application designed to enhance **safety, transparency, and support** for gig workers. The platform enables real-time incident reporting, geospatial risk visualization, earnings tracking, and intelligent insights to help workers make safer and more informed decisions.
+<p align="center">
+  🔥 A real-time safety intelligence platform empowering gig workers with incident reporting, geospatial risk visualization, and community-driven insights
+</p>
 
+<hr/>
 
-##  Overview
+<h2>✨ Overview</h2>
 
-With the rapid growth of the gig economy, workers often operate in unpredictable and high-risk environments. GigShield addresses this gap by providing a **data-driven safety ecosystem** where users can report incidents, visualize risks, and access critical support tools.
+<p>
+<b>GigShield</b> is a full-stack MERN application designed to enhance <b>safety, transparency, and support</b> for gig workers. The platform enables real-time incident reporting, geospatial risk visualization, and intelligent insights to help workers make safer and more informed decisions.
+</p>
 
+<p>
+With the rapid growth of the gig economy, workers often operate in unpredictable and high-risk environments. GigShield addresses this gap by providing a <b>data-driven safety ecosystem</b> where users can report incidents, visualize risks, and access critical support tools.
+</p>
 
-##  Key Features
+<hr/>
 
-### Safety Heatmap Visualization
+<h2>💡 Why GigShield?</h2>
 
-* Interactive map built using **Leaflet.js**
-* Displays incident data using **category-based markers**
-* Automatic viewport adjustment based on reported incidents
-* Reverse geocoding for readable location insights
+<p>
+This project demonstrates how modern full-stack web development, geospatial visualization, and external API integrations can be combined to build a scalable, real-world safety platform — reflecting practical knowledge of production-level MERN stack development and clean architecture design.
+</p>
 
-### Incident Reporting System
+<hr/>
 
-* Supports categorized reports:
+<h2>🎯 Problem Statement</h2>
 
-  * Theft
-  * Harassment
-  * Accident
-  * Road Hazard
-  * Other
-* Anonymous reporting capability
-* Timestamped entries with descriptive context
+<p>
+Gig workers lack access to real-time safety data, community-driven incident reports, and intelligent risk insights while operating in unpredictable environments.
+</p>
 
+<p><b>GigShield solves this by:</b></p>
 
-### Location Intelligence
+<ul>
+  <li>Providing a platform to report and visualize safety incidents in real time</li>
+  <li>Displaying geospatial risk data on an interactive map with category-based markers</li>
+  <li>Integrating weather and location intelligence for enhanced situational awareness</li>
+  <li>Enabling anonymous incident reporting to encourage community participation</li>
+</ul>
 
-* Reverse geocoding via:
+<hr/>
 
-  * OpenStreetMap (Nominatim)
-  * BigDataCloud API
-* Optimized with caching to reduce API calls and rate limits
-* Fallback handling for unavailable location data
+<h2>✨ Key Features</h2>
 
-### Environmental Context Integration
+<ul>
+  <li>🗺️ <b>Safety Heatmap Visualization</b> — Interactive map built with Leaflet.js, category-based markers, automatic viewport adjustment</li>
+  <li>📋 <b>Incident Reporting System</b> — Categorized reports (Theft, Harassment, Accident, Road Hazard), anonymous reporting, timestamped entries</li>
+  <li>📍 <b>Location Intelligence</b> — Reverse geocoding via OpenStreetMap and BigDataCloud, optimized with caching, fallback handling</li>
+  <li>🌤️ <b>Environmental Context</b> — OpenWeather API integration for weather-related risk insights and situational awareness</li>
+  <li>📊 <b>Dynamic Filtering & Analytics</b> — Filter incidents by category, real-time count aggregation, interactive legend</li>
+  <li>🔐 <b>Admin System</b> — Admin login, registration, and dashboard for managing incidents and SOS alerts</li>
+  <li>🆘 <b>SOS Alert Tracking</b> — Real-time SOS alert system for workers in distress</li>
+  <li>📱 <b>Responsive UI</b> — Clean, structured report cards with visual category badges and smooth animations</li>
+</ul>
 
-* Integrated with **OpenWeather API**
-* Provides contextual insights (e.g., weather-related risks)
-* Enhances situational awareness for workers
+<hr/>
 
-### Dynamic Filtering & Analytics
+<h2>📊 Impact</h2>
 
-* Filter incidents by category
-* Real-time count aggregation
-* Interactive legend for quick insights
+<ul>
+  <li>🗺️ Built <b>geospatial incident visualization</b> using Leaflet.js with GeoJSON data from MongoDB</li>
+  <li>📍 Implemented <b>reverse geocoding with caching</b> to reduce API calls and handle rate limits efficiently</li>
+  <li>🌤️ Integrated <b>OpenWeather API</b> to provide contextual weather-based risk insights for workers</li>
+  <li>🆘 Developed <b>real-time SOS alert tracking</b> system for immediate worker safety response</li>
+  <li>🔐 Built <b>admin authentication system</b> with dashboard for centralized incident and alert management</li>
+  <li>📊 Enabled <b>dynamic filtering and analytics</b> for real-time incident category aggregation and visualization</li>
+</ul>
 
-### User Interface & Experience
+<hr/>
 
-* Clean, responsive UI with structured report cards
-* Visual category badges and icons
-* Smooth animations and intuitive layout
+<h2>🔥 Key Takeaway</h2>
 
+<p>
+GigShield demonstrates how modern full-stack development, geospatial APIs, and community-driven data can be combined to build a scalable safety platform that addresses real-world challenges faced by gig economy workers.
+</p>
 
-##  System Workflow
+<hr/>
 
-1. User submits an incident report
-2. Backend stores data with GeoJSON coordinates
-3. Frontend fetches data via API endpoints
-4. Map renders incidents dynamically
-5. Reverse geocoding converts coordinates into readable locations
-6. Users interact with both map and detailed report feed
+<h2>🏗️ Architecture</h2>
 
+<p><b>MERN Stack</b> with clean separation of concerns:</p>
 
-##  Tech Stack
+<ul>
+  <li><b>Frontend</b> → React.js (Hooks & Functional Components) + Leaflet.js for geospatial visualization</li>
+  <li><b>Backend</b> → Node.js + Express.js REST API</li>
+  <li><b>Database</b> → MongoDB with GeoJSON support for spatial data</li>
+  <li><b>External APIs</b> → OpenStreetMap, BigDataCloud, OpenWeather API</li>
+</ul>
 
-### Frontend
+<hr/>
 
-* React.js (Hooks & Functional Components)
-* Leaflet.js (Geospatial Visualization)
-* CSS / Custom Styling
+<h2>🔄 Application Flow</h2>
 
-### Backend
+<ol>
+  <li>User submits a categorized incident report with location</li>
+  <li>Backend stores data with GeoJSON coordinates in MongoDB</li>
+  <li>Frontend fetches incident data via REST API endpoints</li>
+  <li>Leaflet.js map renders incidents dynamically with category markers</li>
+  <li>Reverse geocoding converts coordinates into readable location names</li>
+  <li>OpenWeather API enriches reports with contextual weather data</li>
+  <li>Admin dashboard tracks SOS alerts and manages reported incidents</li>
+</ol>
 
-* Node.js
-* Express.js
+<hr/>
 
-### Database
+<h2>🛠 Tech Stack</h2>
 
-* MongoDB (with GeoJSON support)
+<ul>
+  <li>React.js (Hooks & Functional Components)</li>
+  <li>Node.js + Express.js</li>
+  <li>MongoDB (GeoJSON support)</li>
+  <li>Leaflet.js (Geospatial Visualization)</li>
+  <li>OpenStreetMap + BigDataCloud (Reverse Geocoding)</li>
+  <li>OpenWeather API (Weather Context)</li>
+  <li>REST API Architecture</li>
+</ul>
 
-### External APIs
+<hr/>
 
-* OpenStreetMap (Map tiles & geocoding)
-* BigDataCloud (Reverse geocoding)
-* OpenWeather API (Weather data)
+<h2>📦 Setup Instructions</h2>
 
+<p><b>Prerequisites:</b></p>
+<ul>
+  <li>Node.js 18+</li>
+  <li>MongoDB Atlas account — <a href="https://cloud.mongodb.com">cloud.mongodb.com</a></li>
+  <li>OpenWeather API key — <a href="https://openweathermap.org/api">openweathermap.org</a></li>
+</ul>
 
-##  Installation & Setup
+<p><b>Installation:</b></p>
 
-```bash
-# Clone the repository
-git clone https://github.com/your-username/gigshield.git
+<pre>
+git clone https://github.com/debasrita15/GigShield.git
+cd GigShield
+</pre>
 
-# Navigate to project directory
-cd gigshield
-
-# Install dependencies
-npm install
-
-# Start backend server
+<p><b>Backend:</b></p>
+<pre>
 cd backend
+npm install
 npm run dev
+</pre>
 
-# Start frontend
+<p><b>Frontend:</b></p>
+<pre>
 cd frontend
+npm install
 npm start
-```
+</pre>
 
----
+<p>Add environment variables in <code>backend/.env</code>:</p>
+<pre>
+MONGODB_URI=your_mongodb_connection_string
+PORT=5000
+OPENWEATHER_API_KEY=your_openweather_api_key
+</pre>
 
-##  Project Structure
+<hr/>
 
-```
+<h2>🗄️ Database Structure</h2>
+
+<pre>
+incidents/
+  {incidentId}/
+    category, description, location (GeoJSON),
+    anonymous, timestamp, weatherContext
+
+users/
+  {userId}/
+    name, email, password, role
+
+sosAlerts/
+  {alertId}/
+    workerId, location, status, createdAt
+</pre>
+
+<hr/>
+
+<h2>📁 Project Structure</h2>
+
+<pre>
 gigshield/
-│── frontend/
+├── frontend/
 │   ├── components/
 │   ├── api/
 │   └── styles/
 │
-│── backend/
+├── backend/
 │   ├── routes/
 │   ├── controllers/
 │   ├── models/
 │   └── services/
-```
+</pre>
 
+<hr/>
 
-##  Future Enhancements
+<h2>📚 Learnings</h2>
 
-* AI-based predictive risk alerts
-* Personalized safety recommendations
-* Mobile application support
-* Voice-enabled incident reporting
-* Real-time tracking and alert system
+<ul>
+  <li>Built a scalable <b>MERN stack application</b> with clean layer separation</li>
+  <li>Integrated <b>Leaflet.js with GeoJSON data</b> for geospatial incident visualization</li>
+  <li>Implemented <b>reverse geocoding with caching</b> to optimize API usage and rate limits</li>
+  <li>Worked with <b>multiple external APIs</b> (OpenStreetMap, BigDataCloud, OpenWeather)</li>
+  <li>Built <b>REST API endpoints</b> with Express.js for full CRUD operations</li>
+  <li>Managed <b>collaborative development</b> with Git branching and pull requests</li>
+</ul>
 
+<hr/>
 
-##  Contribution Guidelines
+<h2>🚀 Future Enhancements</h2>
 
-Contributions are welcome. Please follow standard Git workflow:
+<ul>
+  <li>🤖 AI-based predictive risk alerts</li>
+  <li>📱 Mobile application support</li>
+  <li>🎙️ Voice-enabled incident reporting</li>
+  <li>🔔 Real-time push notifications</li>
+  <li>📊 Personalized safety recommendations</li>
+  <li>🗺️ Real-time worker tracking and alert system</li>
+</ul>
 
-```bash
-git checkout -b feature/your-feature-name
-git commit -m "Add your feature"
-git push origin feature/your-feature-name
-```
+<hr/>
 
+<h2>👩‍💻 Authors</h2>
 
-##  License
+<p>
+<b>Debasrita Das</b> — <a href="https://github.com/debasrita15">GitHub</a><br/>
+<b>Esha Agarwal</b> — <a href="https://github.com/eshaagarwal1805-hash">GitHub</a><br/>
+<b>Sreshtha Mukherjee</b> — <a href="https://github.com/Sres-htha">GitHub</a>
+</p>
 
-This project is licensed under the MIT License.
+<hr/>
 
+<h2>📜 License</h2>
 
-##  Vision
+<p>This project is licensed under the MIT License — see the <a href="LICENSE">LICENSE</a> file for details.</p>
 
-GigShield aims to become a **comprehensive safety infrastructure for the gig economy**, enabling workers to operate with greater confidence through **real-time insights, community reporting, and intelligent systems**.
+<hr/>
 
+<h2>⭐ Support</h2>
 
-##  Authors
-
-- [Debasrita Das](https://github.com/debasrita15)
-- [Esha Agarwal](https://github.com/eshaagarwal1805-hash)
-- [Sreshtha Mukherjee](https://github.com/Sres-htha)
-
-##  Contributions
-
-Each member contributed to the design, development, and deployment of GigShield as part of a collaborative MERN stack project.
+<p>If you find this project useful, give it a ⭐ on GitHub!</p>
